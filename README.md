@@ -1,20 +1,15 @@
 # braveclojure
 
-FIXME: description
+Various functionalities in clojure.
 
-## Installation
-
-Download from http://example.com/FIXME.
 
 ## Usage
-
-FIXME: explanation
 
     $ java -jar braveclojure-0.1.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+listing of options this app accepts.
 
 ## Examples
 
@@ -30,7 +25,5 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Shiva Chaithanya Reddy
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
