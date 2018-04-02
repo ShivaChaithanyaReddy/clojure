@@ -112,4 +112,68 @@
 (println (nth '(1 2 3 4) 0) )
 
 (println "testing or " (or false "shiva" false))
+
+;;functions:
+
+(defn first-function
+"THis is my first function"
+[name]
+(str "my name is " name ". THis is my first function."))
+
+(first-function "Shiva Chaithanya Reddy")
+
+;;describe and document code
+(doc map)
+(doc first-function)
+
+
+;;Checking multi arity
+(defn second-function
+;;3 arity
+([first second third]
+ (str first second third))
+
+;;2 arity
+([first second]
+ (println (str "This is 2nd "  first second)) )
+
+;;1 arity
+([first]
+ (str first))
+  )
+
+(second-function "shiva" "Chaithaya")
+
+
+
+(defn third-function
+([first1 second1]
+(str "This is 3rd" first1 " " second1))
+
+([first1]
+(third-function first1 "Chaithanya"))
+)
+
+
+(third-function "Shiva")
+
+(defn fourth-function
+  [ & name]
+  (println (str name)))
+
+
+(fourth-function "shiva" "chaithanya")
+
+
+(defn fifth-function
+[])
+
+
+;;anonymous functions:
+
+((fn [x] (* x 4) ) 5)
+
+(def special-function (fn [x] (* x 3)))
+
+(println (special-function 12))
 )
