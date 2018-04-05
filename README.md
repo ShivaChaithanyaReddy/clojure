@@ -1,4 +1,4 @@
-# braveclojure
+# clojure
 
 Various functionalities in clojure.
 
